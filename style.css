@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.background {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+	position: relative;
+}
+.content {
+	text-align: center;
+	margin-top: 250px;
+}
+.content div {
+	width: 60%;
+	margin-left: 20%;
+}
+.content button {
+	width: 180px;
+	height: 50px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	margin-top: 30px;
+}
+h2 {
+	font-size: 50px;
+}
+.slick-dots {
+	display: flex;
+	position: absolute;
+	bottom: 50px;
+	left: calc(50% - 95px);
+}
+.slick-dots li {
+	list-style-type: none;
+}
+.slick-dots li button {
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 2px solid #000;
+	background-color: #842;
+}
+.slick-dots li button:hover {
+	opacity: 0.7;
+	background-color: #888;
+}
+.slick-dots .slick-active button {
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 2px solid #842;
+	background-color: #000;
+}
+.slick-prev, .slick-next {
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	font-size: 0;
+	border: 1px solid #888;
+	border-radius: 50px;
+	right: 2%;
+	font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+.slick-prev {
+	left: 2%;
+}
+ button.slick-next::after {
+ 	right: 2%;
+ 	 font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+.fal {
+	width: 30px;
+	height: 30px;
+}

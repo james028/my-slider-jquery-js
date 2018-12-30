@@ -3,15 +3,42 @@
     <title>Slider jQuery</title>
     
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
 
     <div class="fade">
-      <div>your content1</div>
-      <div>your content2</div>
-      <div>your content3</div>
+      <div class="background" style="background-image:url(https://images.unsplash.com/photo-1464290109611-fe29ef5669c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+        <div class="content">
+            <h2>Lorem ipsum</h2>
+            <div>Sed molestie ac dui non semper. Nunc ultricies accumsan lacus, non interdum mi efficitur at. Aenean commodo lectus id fringilla tincidunt. </div>
+            <button>Learn More</button>
+            
+        </div>
+      </div>
+      <div class="background" style="background-image:url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);">
+        <div class="content">
+            <h2>Lorem ipsum2</h2>
+            <div>Sed molestie ac dui non semper. Nunc ultricies accumsan lacus, non interdum mi efficitur at. Aenean commodo lectus id fringilla tincidunt. </div>
+            <button>Learn More</button>
+        </div>
+      </div>
+      <div class="background" style="background-image:url(https://images.unsplash.com/photo-1435002613239-45e322caf14d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+        <div class="content">
+            <h2>Lorem ipsum3</h2>
+            <div>Sed molestie ac dui non semper. Nunc ultricies accumsan lacus, non interdum mi efficitur at. Aenean commodo lectus id fringilla tincidunt. </div>
+            <button>Learn More</button>
+        </div>
+      </div>
+      <div class="background" style="background-image:url(https://images.unsplash.com/photo-1450045439515-ff27c2f2e6b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);">
+        <div class="content">
+            <h2>Lorem ipsu4</h2>
+            <div>Sed molestie ac dui non semper. Nunc ultricies accumsan lacus, non interdum mi efficitur at. Aenean commodo lectus id fringilla tincidunt. </div>
+            <button>Learn More</button>
+        </div>
+      </div>
     </div>
     
     
@@ -21,13 +48,14 @@
     <script>
       $(document).ready(function(){
           $('.fade').slick({
+              //autoplay: true,
+              //autoplaySpeed: 2500,
               dots: true,
               infinite: true,
               speed: 500,
               fade: true,
               cssEase: 'linear',
-              autoplay: true,
-              autoplaySpeed: 2000
+              arrows: true
             });
     });
     </script>
