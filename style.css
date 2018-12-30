@@ -69,17 +69,23 @@ h2 {
 	font-size: 0;
 	border: 1px solid #888;
 	border-radius: 50px;
-	right: 2%;
-	font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
 }
 .slick-prev {
 	left: 2%;
 }
+.slick-next {
+	right: 2%;
+}
+button.slick-prev::after {
+	left: 2%;
+	content: '\f060';
+ 	font-family: FontAwesome;
+    font-size: 30px;
+}
  button.slick-next::after {
  	right: 2%;
- 	 font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
-}
-.fal {
-	width: 30px;
-	height: 30px;
+ 	content: '\f061';
+ 	font-family: FontAwesome;
+    font-size: 30px;
+    
 }
